@@ -1,0 +1,35 @@
+.button
+h1 
+{
+    color: rgb(9, 7, 5);
+    font-size: 35px;
+    font-family: Helvetica;
+}
+.button
+{
+    text-align: center; /* Centrer le contenu horizontalement */
+  }
+  a
+  {
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    transition: color 0.2s ease;
+    background-color: #f9f9f9
+  }
+  a:hover 
+  {
+    color: rgb(234, 217, 196);
+    text-decoration: none;
+    background-color: #080706
+  }
+  .info-box button {
+    background-color: #3c3c3c; /* Bouton brun foncé */
+    color: #f4ede9; /* Texte en beige clair */
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+.info-box button:hover {
+    background-color: #534e4a; /* Changement de couleur au survol */
+}

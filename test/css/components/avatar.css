@@ -1,0 +1,13 @@
+.avatar
+img
+    {
+     width: 20%;
+    display: block;
+    margin: 0 auto; /* Centrer l'image horizontalement */
+  }
+  .img-circle 
+  { 
+    width: 200px;
+	height: 260px;
+    border-radius: 100%;
+  }

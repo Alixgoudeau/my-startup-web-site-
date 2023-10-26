@@ -1,0 +1,130 @@
+.style
+body {
+    background-color: #faf7f6; /* Beige clair */
+    color: #3c3c3c; /* Brun foncé pour le texte */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* En-tête (header) */
+header {
+    background-color: #3c3c3c; /* Brun foncé pour l'en-tête */
+    color: #f4ede9; /* Texte en beige clair */
+    padding: 20px;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0a0a09; /* Texte en beige clair */
+    font-weight: bold;
+}
+
+/* Boutons */
+.btn {
+    background-color: #fbf9f9;
+    color: #070707;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+}
+.featured-stores, .featured-products {
+    background-color: #f4ede9; /* Beige clair pour les sections de contenu */
+    padding: 40px;
+}
+
+/* Pied de page (footer) */
+footer {
+    background-color: #3c3c3c; /* Brun foncé pour le pied de page */
+    color: #f4ede9; /* Texte en beige clair */
+    text-align: center;
+    padding: 10px;
+}
+
+/* Styles spécifiques aux éléments de liste ou de grille (par exemple, produits ou magasins) */
+.list-item {
+    background-color: #f4ede9; /* Beige clair pour les éléments de liste */
+    border: 1px solid #3c3c3c; /* Bordure brun foncé */
+    padding: 10px;
+}
+
+/* Styles pour les images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1, h3 {
+    color: #3c3c3c; /* Brun foncé pour les titres */
+}
+h2{
+  font-size: 50px;
+      line-height: 0.8;
+      letter-spacing: 1px;
+}
+/* Styles pour les boutons de call to action (CTA) */
+.cta-btn {
+    background-color: #ffaa5c; /* Orange clair pour les CTA */
+    color: #3c3c3c; /* Texte brun foncé pour les CTA */
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+}
+
+/* Styles pour les liens hypertexte */
+a {
+    color: #3c3c3c; /* Brun foncé pour les liens hypertexte */
+    text-decoration: underline;
+}
+.hero {
+    background-image: url('background.jpg'); /* Image de fond */
+    background-size: cover;
+    background-position: center;
+    color: #9a745e; /* Texte en beige clair pour la section de mise en avant */
+    text-align: center;
+    padding: 80px;
+}
+
+.image-container {
+  display: flex; /* Utilisation de Flexbox pour aligner horizontalement */
+}
+
+.image-container img {
+  width: 375px; /* Largeur des images */
+  height: auto; /* Hauteur automatique pour conserver les proportions */
+  margin-right: 10px; /* Marge entre les images */
+}
+.info-box {
+    background-color: #f4ede9; /* Beige clair */
+    border: 2px solid #3c3c3c; /* Bordure brun foncé */
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.info-box h2 {
+    color: #3c3c3c; /* Titre en brun foncé */
+}
+
+.info-box label {
+    display: block;
+    color: #3c3c3c; /* Couleur du texte brun foncé pour les étiquettes */
+    margin-top: 10px;
+}
+
+.info-box input, .info-box textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}

@@ -1,0 +1,21 @@
+
+.container
+ {
+    width: 80%; /* Largeur du container */
+    margin: 0 auto; /* Centre le container horizontalement */
+    padding: 125px; /* Espace intérieur du container */
+    background-color: #faf9f8; /* Couleur de fond du container */
+    border: 1px solid #000000; /* Bordure du container */
+  }
+
+
+h1
+  {
+    color: rgb(242, 207, 172);
+    font-size: 35px;
+    font-family: Helvetica;
+
+}
+.container {
+      text-align: center; /* Centrer le contenu horizontalement */
+    }

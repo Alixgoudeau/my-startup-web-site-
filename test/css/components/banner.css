@@ -1,0 +1,25 @@
+
+.banner {
+  position: center;
+}
+
+.banner-img {
+  width: 50%; /* Remplit la largeur de la bannière */
+  display: inline-block;
+}
+
+/* Styles du contenu principal */
+.content {
+  background-color: #3e3a3a; /* Fond blanc pour le contenu principal */
+  padding: 20px;
+  text-align: center;
+  z-index: 1; /* Assure que le contenu est au-dessus de l'image */
+}
+
+/* Ajuste la marge supérieure de la section du contenu pour éviter de cacher le haut de l'image */
+.content h1 {
+  margin-top: 50px;
+}
+.large-image {
+  width: 450px; /* Définissez la largeur souhaitée en pixels ou en pourcentage */
+}
